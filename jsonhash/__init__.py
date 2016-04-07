@@ -22,5 +22,4 @@ def hash(object, algorithm=None):
                              default=None,
                              sort_keys=True)
 
-    print data_string
     return algorithm(data_string)
